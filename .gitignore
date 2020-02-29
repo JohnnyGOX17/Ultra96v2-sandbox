@@ -9,3 +9,6 @@
 *.sim/
 *.xsa
 .Xil/
+
+# macOS
+.DS_Store
