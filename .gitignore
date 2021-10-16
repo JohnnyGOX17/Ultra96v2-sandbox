@@ -3,12 +3,19 @@
 *.jou
 *.str
 *.cache/
+*.gen/
 *.hw/
 *.ip_user_files/
 *.runs/
+*.srcs/
 *.sim/
 *.xsa
 .Xil/
+# using TCL flow, ignore project files
+*.xpr
+
+# Questa/Model Sim
+work/
 
 # macOS
 .DS_Store
