@@ -5,8 +5,8 @@
 # ----------------------------------------------------------------------------
 # LEDs
 # ----------------------------------------------------------------------------
-set_property PACKAGE_PIN A9 [get_ports {YEL_LED}]; # D9
-set_property PACKAGE_PIN B9 [get_ports {BLU_LED}]; # D10
+#set_property PACKAGE_PIN A9 [get_ports {YEL_LED}]; # D9
+#set_property PACKAGE_PIN B9 [get_ports {BLU_LED}]; # D10
 
 # ----------------------------------------------------------------------------
 # Bluetooth
@@ -92,9 +92,9 @@ set_property PACKAGE_PIN B9 [get_ports {BLU_LED}]; # D10
 # ----------------------------------------------------------------------------
 
 # Set the bank voltage for IO Bank 26 to 1.8V
-set_property IOSTANDARD LVCMOS18 [get_ports -of_objects [get_iobanks 26]];
+#set_property IOSTANDARD LVCMOS18 [get_ports -of_objects [get_iobanks 26]];
 # Set the bank voltage for IO Bank 65 to 1.2V
-set_property IOSTANDARD LVCMOS12 [get_ports -of_objects [get_iobanks 65]];
+#set_property IOSTANDARD LVCMOS12 [get_ports -of_objects [get_iobanks 65]];
 # Set the bank voltage for IO Bank 66 to 1.2V
-set_property IOSTANDARD LVCMOS12 [get_ports -of_objects [get_iobanks 66]];
+#set_property IOSTANDARD LVCMOS12 [get_ports -of_objects [get_iobanks 66]];
 
